@@ -1,0 +1,72 @@
+html {
+  font-size: 16px; }
+
+body {
+  margin: 0;
+  background: #e7e7e7; }
+
+body, div, dl, dt, dd, ul, li, h1, h2, h3, h4, h5, h6, form, input, textarea, p, th, td, img {
+  margin: 0;
+  padding: 0; }
+
+form {
+  padding: 0.625rem 0.625rem 0 0.625rem; }
+  form ul {
+    width: 100%; }
+    form ul li {
+      width: 100%;
+      list-style: none;
+      margin-bottom: 0.625rem; }
+      form ul li label {
+        font-size: 0.8125rem;
+        padding-left: 0.625rem;
+        background: #fff;
+        height: 2.875rem;
+        line-height: 2.75rem;
+        display: inline-block;
+        vertical-align: top;
+        letter-spacing: 0.125rem; }
+  form input:not(.code) {
+    display: inline-block;
+    height: 2.875rem;
+    border: none;
+    box-sizing: border-box;
+    padding-left: 0.625rem; }
+  form input::-webkit-input-placeholder {
+    font-size: 0.9375rem;
+    color: #ccc; }
+  form .tel {
+    width: calc(100% - 4.375rem); }
+  form .account, form .password {
+    width: calc(100% - 6.625rem); }
+  form .code {
+    display: inline-block;
+    vertical-align: top;
+    height: 2.875rem;
+    width: 18.375rem;
+    border: none;
+    box-sizing: border-box;
+    padding-left: 0.625rem; }
+  form .gain {
+    display: inline-block;
+    height: 2.875rem;
+    line-height: 2.75rem;
+    background: #d2d2d2;
+    color: #404040;
+    font-size: 0.8125rem;
+    width: 5.625rem;
+    text-align: center;
+    margin-left: 0.625rem; }
+  form .submit {
+    display: inline-block;
+    font-size: 1.125rem;
+    height: 2.875rem;
+    line-height: 2.875rem;
+    width: 100%;
+    border-radius: 0.1875rem;
+    background: #ff7300;
+    color: #fff;
+    text-align: center;
+    margin-top: 0.625rem; }
+
+/*# sourceMappingURL=main.css.map */
