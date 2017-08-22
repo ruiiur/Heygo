@@ -62,10 +62,10 @@ form{
     box-sizing: border-box;
     padding-left: toRem(10px);
   }
-  input::-webkit-input-placeholder{
-    font-size: toRem(15px);
-    color:#ccc;
-  }
+  //input::-webkit-input-placeholder{
+  //  font-size: toRem(15px);
+  //  color:#ccc;
+  //}
   .tel{
     width: calc(100% - #{toRem(70px)});
   }
@@ -85,7 +85,7 @@ form{
   .gain{
     display: inline-block;
     height:toRem(46px);
-    line-height: toRem(44px);
+    line-height: toRem(46px);
     background: #d2d2d2;
     color:#404040;
     font-size: toRem(13px);

@@ -42,9 +42,6 @@ form {
     border: none;
     box-sizing: border-box;
     padding-left: 0.625rem; }
-  form input::-webkit-input-placeholder {
-    font-size: 0.9375rem;
-    color: #ccc; }
   form .tel {
     width: calc(100% - 4.375rem); }
   form .account, form .password {
@@ -60,7 +57,7 @@ form {
   form .gain {
     display: inline-block;
     height: 2.875rem;
-    line-height: 2.75rem;
+    line-height: 2.875rem;
     background: #d2d2d2;
     color: #404040;
     font-size: 0.8125rem;
