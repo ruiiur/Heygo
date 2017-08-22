@@ -30,6 +30,12 @@ form {
         width: 4.375rem; }
       form ul li:nth-child(3) label, form ul li:nth-child(4) label {
         width: 6.125rem; }
+    form ul input {
+      font-size: 0.9375rem;
+      padding-top: 0 !important;
+      padding-bottom: 0 !important;
+      border-radius: 0 !important;
+      line-height: 2.75rem; }
   form input:not(.code) {
     display: inline-block;
     height: 2.875rem;

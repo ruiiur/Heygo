@@ -45,6 +45,13 @@ form{
         }
       }
     }
+    input{
+      font-size: toRem(15px);
+      padding-top: 0 !important;
+      padding-bottom: 0 !important;
+      border-radius: 0 !important;
+      line-height: toRem(44px);
+    }
   }
   input:not(.code){
     display: inline-block;
