@@ -25,7 +25,11 @@ form {
         line-height: 2.75rem;
         display: inline-block;
         vertical-align: top;
-        letter-spacing: 0.125rem; }
+        box-sizing: border-box; }
+      form ul li:nth-child(1) label {
+        width: 4.375rem; }
+      form ul li:nth-child(3) label, form ul li:nth-child(4) label {
+        width: 6.125rem; }
   form input:not(.code) {
     display: inline-block;
     height: 2.875rem;
@@ -38,7 +42,7 @@ form {
   form .tel {
     width: calc(100% - 4.375rem); }
   form .account, form .password {
-    width: calc(100% - 6.625rem); }
+    width: calc(100% - 6.125rem); }
   form .code {
     display: inline-block;
     vertical-align: top;

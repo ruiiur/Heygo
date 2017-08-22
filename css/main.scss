@@ -17,22 +17,32 @@ form{
   padding: toRem(10px) toRem(10px) 0 toRem(10px);
   ul{
     width:100%;
-    li{
-      width:100%;
+    li {
+      width: 100%;
       list-style: none;
       margin-bottom: toRem(10px);
       //background: #fff;
-      label{
+      label {
         font-size: toRem(13px);
         padding-left: toRem(10px);
         //width: toRem(60px);
         background: #fff;
         //height:toRem(46px);
-        height:toRem(46px);
+        height: toRem(46px);
         line-height: toRem(44px);
         display: inline-block;
         vertical-align: top;
-        letter-spacing: toRem(2px);
+        box-sizing: border-box;
+      }
+      &:nth-child(1) {
+        label {
+          width: toRem(70px);
+        }
+      }
+      &:nth-child(3), &:nth-child(4) {
+        label {
+          width: toRem(98px);
+        }
       }
     }
   }
@@ -53,7 +63,7 @@ form{
     width: calc(100% - #{toRem(70px)});
   }
   .account,.password{
-    width: calc(100% - #{toRem(106px)});
+    width: calc(100% - #{toRem(98px)});
   }
   .code{
     display: inline-block;
